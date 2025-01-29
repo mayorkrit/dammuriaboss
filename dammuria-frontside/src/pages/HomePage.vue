@@ -55,37 +55,12 @@
   
       <!-- Раздел ART (как внизу макета) -->
       <section class="landing-page__art" id="art">
-      <h2 class="landing-page__art-title">ART</h2>
+      <h2 id="art" class="landing-page__art-title">ART</h2>
       <div class="landing-page__art-underline"></div>
 
       <!-- Карточка товара (продукт) -->
       <div class="landing-page__product">
-        <!-- Левая часть: фото товара (серый квадрат) -->
-        <div class="landing-page__product-photo">
-          <span class="landing-page__product-photo-text">PRODUCT PHOTO</span>
-          <!-- Для имитации ">" справа можно стилизовать псевдоэлемент или добавить иконку -->
-          <span class="landing-page__product-photo-arrow">&#x3e;</span>
-        </div>
 
-        <!-- Правая часть: описание и кнопки -->
-        <div class="landing-page__product-info">
-          <h3 class="landing-page__product-title">
-            PRODUCT DESCRIPTION - PRICE
-          </h3>
-          <p class="landing-page__product-desc">
-            MORE DETAILED DESCRIPTION WHEN NEEDED
-          </p>
-
-          <!-- Кнопки BUY / SIZE? -->
-          <div class="landing-page__product-actions">
-            <button class="landing-page__product-btn landing-page__product-btn--buy">
-              BUY
-            </button>
-            <button class="landing-page__product-btn landing-page__product-btn--size">
-              SIZE?
-            </button>
-          </div>
-        </div>
       </div>
 
       <!-- Разделительная линия (синяя) -->
