@@ -82,7 +82,6 @@ const phoneNumber    = ref('')
 const showThankYou   = ref(false)
 
 const isValidPhone = computed(() => {
-  // простой валидатор: хотя бы 5 цифр
   return /^\+?\d{5,15}$/.test(phoneNumber.value.trim())
 })
 
@@ -199,10 +198,10 @@ function confirmOrder() {
 }
 
 .phone-block {
-  position: absolute;      /* !!! */
-  top: 100%;               /* сразу под кнопками */
-  right: -10px;                 /* выравниваем по левой границе */
-  width: 140px;            /* фиксируем ширину, независимую от кнопок */
+  position: absolute;
+  top: 100%;
+  right: -10px;
+  width: 140px;
   background: rgba(0,0,0,0.2);
   border-radius: 0.25rem;
   padding: 0.5rem;
